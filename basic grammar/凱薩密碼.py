@@ -11,11 +11,11 @@
 # a : 0 + 4 = 4
 # z : 25 + 4 = 29 % 26 = 3
 
-move = 4
-i = 0
-for i in range(26):
-    new = ((i + move )% 26)
-    print(chr(97 + i), ">", chr(97 + new)) #a~z
+# move = 4
+# i = 0
+# for i in range(26):
+#     new = ((i + move )% 26)
+#     print(chr(97 + i), ">", chr(97 + new)) #a~z
 
 move = int(input("請輸入欲移動幅度："))
 i = 0
